@@ -1,0 +1,10 @@
+D:\我的文档\Visual Studio 2013\Projects\Daemon_lock\Daemon_lock\bin\x86\Debug\Daemon_lock.exe.config
+D:\我的文档\Visual Studio 2013\Projects\Daemon_lock\Daemon_lock\bin\x86\Debug\Daemon_lock.exe
+D:\我的文档\Visual Studio 2013\Projects\Daemon_lock\Daemon_lock\bin\x86\Debug\Daemon_lock.pdb
+D:\我的文档\Visual Studio 2013\Projects\Daemon_lock\Daemon_lock\bin\x86\Debug\Daemon_lock.xml
+D:\我的文档\Visual Studio 2013\Projects\Daemon_lock\Daemon_lock\obj\x86\Debug\Daemon_lock.Main.resources
+D:\我的文档\Visual Studio 2013\Projects\Daemon_lock\Daemon_lock\obj\x86\Debug\Daemon_lock.Resources.resources
+D:\我的文档\Visual Studio 2013\Projects\Daemon_lock\Daemon_lock\obj\x86\Debug\Daemon_lock.vbproj.GenerateResource.Cache
+D:\我的文档\Visual Studio 2013\Projects\Daemon_lock\Daemon_lock\obj\x86\Debug\Daemon_lock.exe
+D:\我的文档\Visual Studio 2013\Projects\Daemon_lock\Daemon_lock\obj\x86\Debug\Daemon_lock.xml
+D:\我的文档\Visual Studio 2013\Projects\Daemon_lock\Daemon_lock\obj\x86\Debug\Daemon_lock.pdb

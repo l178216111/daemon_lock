@@ -1,0 +1,78 @@
+<!doctype html>
+<html ng-app="myApp">
+ <head>
+  <meta  charset="utf-8">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet" media="screen">
+	<!-- Javascript -->
+	<script src="js/jquery-2.0.0.min.js"></script>
+	<script src="js/angular.min.js"></script>
+	<script src='js/bootstrap.min.js'></script>
+	<script type="text/javascript" src="./js/bootstrap-datetimepicker.min.js" charset="UTF-8"></script>
+	<script type="text/javascript" src="./js/highcharts.js" charset="UTF-8"></script>
+	<script type="text/javascript" src="./js/moment.min.js"></script>
+	<script src="js/index.js"></script>
+<style>
+</style>
+ </head>
+ <body ng-controller="index" style="padding-bottom:70px;">
+	<div class="container heading">
+		<div class="page-header text-center">
+			<h2>Daemon Lock Status</h2>
+		</div>
+		<div class="col-md-2">
+                <div class="input-group date form_datetime" data-date="" data-date-format="yyyy-mm-dd" data-link-field="dtp_input1" datetime >
+                                <input class="form-control" size="16" type="text"  ng-model="idate" disabled>
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-th"></span>
+                </div>
+		</div>
+		<div class="text-center pull-left" >
+			<button type="button" class="ladda-button btn btn-primary" data-style="zoom-in" ng-click="submit()" ng-disabled="!idate">
+					<span class="ladda-label">Submit</span>
+			</button>
+		</div>
+                <div class="text-center pull-right" >
+                        <button type="button" class="ladda-button btn btn-warn" data-style="zoom-in" ng-click="volume('-')" ng-disabled="!idate">
+                                        <span class="ladda-label">-</span>
+                        </button>
+                </div>
+                <div class="text-center pull-right" >
+                        <button type="button" class="ladda-button btn btn-success" data-style="zoom-in" ng-click="volume('+')" ng-disabled="!idate">
+                                        <span class="ladda-label">+</span>
+                        </button>
+                </div>
+
+	</div>
+	<div id="loading" class="zndex" ng-if="loading" style="position:absolute;z-index:99999;left:50%;top:50%;">
+			<img src='./img/progress.gif' width="20" height="20" />
+	</div>
+	<div class="col-md-10 col-md-offset-1">
+                 <div  id="container" hightchar ></div>
+        </div>
+<div id="footer" class="container">
+<nav class="navbar navbar-default navbar-fixed-bottom">
+    <div class="navbar-inner navbar-content-center text-center">
+        <p class="text-muted credit" style="padding: 10px;">
+		<font color="#000FF"> Page Maintained by <a href=mailto:tjndata@nxp.com>DataTeam</a>  Designed by Zhaoxin.liu
+        </p>
+    </div>
+</nav>
+</div>
+ </body>
+<!--
+<footer>
+	<div class="col-md-12 text-center">
+         <p><font color="#000FF"> Page Maintained by <a href=mailto:TJNDATA@nxp.com>Data team</a><br>
+         </p></td>
+	</div>
+</footer>
+!-->
+</html>
+
